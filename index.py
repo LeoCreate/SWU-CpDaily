@@ -271,7 +271,7 @@ class Util:  # 统一的类
             "userId": user['username'],
         }
         headers = {
-            'tenantId': '1019318364515869',  # SWU
+            'tenantId': 'whpu',  # SWU
             'User-Agent': 'Mozilla/5.0 (Linux; Android 7.1.1; MI 6 Build/NMF26X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/61.0.3163.98 Mobile Safari/537.36 okhttp/3.12.4 cpdaily/9.0.14 wisedu/9.0.14',
             'CpdailyStandAlone': '0',
             'Cpdaily-Extension': Util.DESEncrypt(json.dumps(extension)),
@@ -763,8 +763,8 @@ def Do(School_Server_API, user):
 
 def main():
     School_Server_API = {
-        'login-url': 'https://swu.campusphere.net/iap/login?service=https%3A%2F%2Fswu.campusphere.net%2Fportal%2Flogin',
-        'host': 'swu.campusphere.net'
+        'login-url': 'https://whpu.campusphere.net/iap/login?service=https%3A%2F%2Fwhpu.campusphere.net%2Fportal%2Flogin',
+        'host': 'whpu.campusphere.net'
     }
     user = {
         'username': USERNAME,
